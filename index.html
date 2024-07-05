@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công Nghệ Sạch - Tương Lai Xanh</title>
+    <link rel="icon" href="./img/logo_forweb.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-1 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Công Nghệ Sạch</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Sẽ học những gì?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Câu hỏi thường gặp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Giảng viên</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-2 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Phát Triển <span class="text-success">Công Nghệ Sạch</span></h1>
+                    <p class="lead my-4">
+                        Chúng tôi tập trung vào việc truyền đạt kiến thức về công nghệ sạch và bền vững cho học viên,
+                        chuẩn bị cho họ sẵn sàng tham gia vào lĩnh vực quan trọng này
+                    </p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Đăng
+                        Ký</button>
+                </div>
+                <img src="img/clean-energy.png" alt="" class="img-fluid w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Đăng Ký Nhận Bản Tin Của Chúng Tôi</h3>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Nhập email ...">
+                    <button class="btn btn-dark btn-lg" type="button">Gửi</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes  -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Học Trực Tuyến</h3>
+                            <p class="card-text">
+                                Khám phá các khóa học trực tuyến từ năng lượng tái tạo đến giải pháp giảm thiểu chất
+                                thải.
+                            </p>
+                            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Học Trực Tiếp</h3>
+                            <p class="card-text">
+                                Tham gia các lớp học tại chỗ để tìm hiểu sâu hơn về các ứng dụng thực tế của công nghệ
+                                sạch.
+                            </p>
+                            <a href="#" class="btn btn-dark">Tìm hiểu thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Học Kết Hợp</h3>
+                            <p class="card-text">
+                                Trải nghiệm sự kết hợp giữa học trực tuyến và thực hành trực tiếp với các dự án công
+                                nghệ sạch.
+                            </p>
+                            <a href="#" class="btn btn-primary">Tìm hiểu thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learn Sections -->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/alternative.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Hiểu Biết Cơ Bản</h2>
+                    <p class="lead">
+                        Nắm vững kiến thức cơ bản về công nghệ sạch, từ nguyên lý hoạt động đến cách thức triển khai
+                        trong thực tế.
+                    </p>
+                    <p>
+                        Bạn sẽ hiểu rõ được cách thức các hệ thống năng lượng tái tạo như năng lượng mặt trời, gió, và
+                        thủy triều hoạt động, cũng như cách chúng góp phần vào một tương lai xanh và bền vững.
+                    </p>
+                    <a href="#" class="btn btn-success mt-3"><i class="bi bi-chevron-right"></i> Tìm hiểu thêm</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="learn" class="p-5 bg-dark">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5 text-light">
+                    <h2>Ứng Dụng Công Nghệ Sạch </h2>
+                    <p class="lead">
+                        Tìm hiểu cách ứng dụng công nghệ sạch trong cuộc sống hàng ngày và trong các dự án công nghiệp.
+                    </p>
+                    <p>
+                        Phần này sẽ bao gồm các nghiên cứu điển hình, từ cách tự trang bị hệ thống năng lượng mặt trời
+                        tại nhà, đến việc triển khai các dự án năng lượng gió quy mô lớn.
+                    </p>
+                    <a href="#" class="btn btn-success mt-3"><i class="bi bi-chevron-right"></i> Tìm hiểu thêm</a>
+                </div>
+                <div class="col-md">
+                    <img src="img/renewable-energy.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Questions -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Câu Hỏi Thường Gặp
+            </h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Công nghệ sạch là gì?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Công nghệ sạch bao gồm các phương pháp và công nghệ được thiết kế để
+                            giảm thiểu tác động tiêu cực lên môi trường. Điều này có thể bao gồm việc sử dụng
+                            <code>năng lượng tái tạo</code>, tối ưu hóa việc sử dụng nguồn lực và giảm thiểu chất thải.
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Tại sao công nghệ sạch lại quan trọng?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Công nghệ sạch đóng một vai trò quan trọng trong việc giảm thiểu tác
+                            động của biến đổi khí hậu, bảo vệ nguồn tài nguyên thiên nhiên, và đảm bảo một tương lai bền
+                            vững cho thế hệ sau. Nó giúp giảm phát thải khí nhà kính và tối ưu hóa việc sử dụng năng
+                            lượng.</div>
+                    </div>
+                </div>
+                <!-- item 3-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Làm thế nào để bắt đầu với công nghệ sạch?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Bắt đầu với công nghệ sạch có thể đơn giản như việc thực hiện các
+                            bước nhỏ tại gia đình như sử dụng <code>bóng đèn LED</code> tiết kiệm năng lượng, tái chế và
+                            giảm thiểu chất thải. Để tiếp cận một cách chuyên sâu hơn, bạn có thể tham gia các khóa học
+                            hoặc chương trình đào tạo về công nghệ sạch và bền vững.</div>
+                    </div>
+                </div>
+                <!-- item 4-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Công nghệ sạch có đắt không?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Chi phí ban đầu cho việc triển khai công nghệ sạch có thể cao, nhưng
+                            chúng thường tiết kiệm chi phí trong dài hạn thông qua việc giảm hóa đơn năng lượng và giảm
+                            thiểu chi phí vận hành. Nhiều quốc gia cũng cung cấp ưu đãi tài chính hoặc hỗ trợ cho các dự
+                            án công nghệ sạch.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors -->
+    <section id="instructors" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">Giảng Viên của Chúng Tôi</h2>
+            <p class="lead text-center text-white mb-5">
+                Các giảng viên của chúng tôi đều có kinh nghiệm 5+ năm trong lĩnh vực công nghệ sạch
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/bgjpg.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">Moew</h3>
+                            <p class="card-text">Có hơn 10 năm kinh nghiệm trong nghiên cứu và ứng dụng công nghệ xử lý
+                                nước thải. Là chuyên gia hàng đầu về các phương pháp tái chế.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/bgjpg.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">mOew</h3>
+                            <p class="card-text">Là một chuyên gia trong lĩnh vực điện năng lượng tái tạo, với hơn 8 năm
+                                kinh nghiệm thiết kế và triển khai các dự án điện mặt trời và gió.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/bgjpg.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">moEw</h3>
+                            <p class="card-text">Có kinh nghiệm 7 năm trong lĩnh vực. Là một trong những nhà nghiên cứu
+                                tiên phong về ứng dụng của IoT trong quản lý tài nguyên tự nhiên.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="./img/bgjpg.jpg" class="rounded-circle mb-3 img-fluid" alt="">
+                            <h3 class="card-title mb-3">moeW</h3>
+                            <p class="card-text">Là chuyên gia về quản lý và phát triển các dự án công nghệ sạch, với
+                                hơn 6 năm kinh nghiệm tại các tổ chức quốc tế và địa phương.</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                        Liên Hệ
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Địa Chỉ:</span> 123 Main St, Anytown, USA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Điện Thoại:</span> (123) 456-7890
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> 0X5oA@example.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Website:</span> www.example.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map">
+                        <img class="w-100 rounded" src="https://www.w3schools.com/w3images/map.jpg" alt="map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-3 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy;2024 Phát Triển Công Nghệ Sạch</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="enrollLabel">Thông tin đăng ký</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Điền vào biểu mẫu này và chúng tôi sẽ liên hệ lại với bạn</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="col-form-label">Họ tên:</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Sdt:</label>
+                            <input type="tel" class="form-control" id="phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary">Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
